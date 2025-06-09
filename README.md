@@ -1,5 +1,20 @@
 # FreeBSDnotes
 
+## rc.conf
+```
+linux_enable="YES"
+kld_list="linux linux64 cuse fusefs hgame"
+dbus_enable'"YES"
+webcamd_enable="YES"
+cupsd_enable="YES"
+avahi_daemon_enable="YES"
+avahi_dnsconfd_enable="YES"
+firewall_enable="YES"
+firewall_type="workstation"
+wlans_iwm0="wlan0"
+ifconfig_wlan0="WPA DHCP"
+kldload_nvidia="nvidia-modeset"
+
 ## network
 
 
