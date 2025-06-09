@@ -18,15 +18,15 @@ network={
   eap=PEAP
 }
 ```
-
+Set up wifi for iwm0
 ```
-sysrc wlans_iwn0="wlan0"
+sysrc wlans_iwm0="wlan0"
 sysrc ifconfig_wlan0="WPA DHCP"
 service netif restart
 ```
 
 ## graphics
-
+List devices
 ```
 pciconf -lv | grep -B3 display
 ```
