@@ -14,6 +14,7 @@ firewall_type="workstation"
 wlans_iwm0="wlan0"
 ifconfig_wlan0="WPA DHCP"
 kldload_nvidia="nvidia-modeset"
+```
 
 ## network
 
